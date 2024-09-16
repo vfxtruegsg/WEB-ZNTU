@@ -116,11 +116,10 @@ img {
 
 .form-btn {
   border: none;
-  border-radius: 50%;
+  border-radius: 15%;
   background-color: #519ff8;
   transition: background-color 250ms;
-  height: 30px;
-  width: 130px;
+  padding: 10px 20px;
 }
 
 .form-btn:hover {

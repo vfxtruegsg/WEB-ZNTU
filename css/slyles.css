@@ -1,0 +1,138 @@
+/* COMMON SET */
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  width: 768px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+/* my-name */
+
+.my-name,
+.education,
+.work-experience,
+.it-skills,
+.contact-inf {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.my-name {
+  padding: 40px 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin: 20px 0 15px 0;
+  width: 250px;
+  height: 250px;
+}
+
+.my-photo {
+  border-radius: 10%;
+}
+
+/* education, work-experience, it-skills, contact-inf-list*/
+
+.education-list,
+.work-experience-list,
+.it-skills-list,
+.contact-inf-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.my-social-networks {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.icon-inst {
+  fill: #e70939;
+  transition: transform 250ms;
+}
+
+.icon-tg {
+  fill: #519ff8;
+  transition: transform 250ms;
+}
+
+.icon-inst:hover,
+.icon-tg:hover {
+  transform: scale(1.15);
+}
+
+/* FORM */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.txtarea-form {
+  resize: none;
+}
+
+.form-btn {
+  border: none;
+  border-radius: 50%;
+  background-color: #519ff8;
+  transition: background-color 250ms;
+  height: 30px;
+  width: 130px;
+}
+
+.form-btn:hover {
+  background-color: #3166a3;
+}
+
+/* TABLE */
+
+.link-table {
+  display: block;
+  font-size: 24px;
+  color: #519ff8;
+  text-align: center;
+  margin-bottom: 24px;
+}
